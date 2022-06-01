@@ -7,7 +7,7 @@ pipeline
    {
      steps
      {
-       mvn clean install
+       sh 'mvn clean install'
      }
    }
   }
