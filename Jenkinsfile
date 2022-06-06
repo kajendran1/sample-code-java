@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('checkout'){
           steps{
-             url: 'https://github.com/kajendran1/sample-code-java.git'
+             git 'https://github.com/kajendran1/sample-code-java.git'
           }
        }
  
